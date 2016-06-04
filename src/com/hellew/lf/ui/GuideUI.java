@@ -2,8 +2,6 @@ package com.hellew.lf.ui;
 
 import com.hellew.lf.R;
 
-import android.app.Activity;
-import android.os.Bundle;
 
 /**
  * 
@@ -14,7 +12,7 @@ public class GuideUI extends BaseActivity {
 	@Override
 	protected int setMyContentView() {
 		// TODO Auto-generated method stub
-		return R.layout.activity_guide;
+		return R.layout.activity_welcome;
 	}
 
 	@Override

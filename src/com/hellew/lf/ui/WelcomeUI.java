@@ -123,7 +123,7 @@ public class WelcomeUI extends BaseActivity {
 
 	private void jump2next() {
 		Log.d("+++++++++++++++", "进来了");
-		if (true) {// 进入引导页面
+		if (false) {// 进入引导页面
 
 			Intent intent = new Intent(WelcomeUI.this, GuideUI.class);
 			WelcomeUI.this.startActivity(intent);

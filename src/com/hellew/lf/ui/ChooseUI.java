@@ -3,7 +3,9 @@ package com.hellew.lf.ui;
 import com.hellew.lf.R;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.SlidingDrawer;
 
 /**
  * 
@@ -25,7 +27,16 @@ public class ChooseUI extends BaseActivity {
 
 	@Override
 	protected void init() {
-		// TODO Auto-generated method stub
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// Intent intent = new Intent(this, MainLeft.class);
+		// startActivity(intent);
+		Intent intent = new Intent(this, MainRight.class);
+		startActivity(intent);
 
 	}
 
